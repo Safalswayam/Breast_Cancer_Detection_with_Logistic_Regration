@@ -1,4 +1,4 @@
-#🎗️ Breast Tumor Detection using Trigonometric Convolutions
+# Breast Tumor Detection using Trigonometric Convolutions
 📌 Overview
 This project focuses on detecting benign and malignant breast tumors from mammogram images using a convolutional neural network (CNN) enhanced by a custom TrigConv2D layer. The model is designed to identify subtle texture and density patterns commonly observed in breast cancer diagnostics.
 
