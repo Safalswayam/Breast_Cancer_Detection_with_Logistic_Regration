@@ -22,4 +22,5 @@ See `requirements.txt` for necessary packages.
 
 ## Author
 
-Developed as part of a simulation project by a data scientist at Google.
+Safal Swayam
+
