@@ -1,45 +1,25 @@
-# Breast Tumor Detection using Trigonometric Convolutions
+# Breast Cancer Detection using Logistic Regression
 
-📌 Overview :
+This project detects breast cancer using the Breast Cancer Wisconsin dataset from scikit-learn. It applies a logistic regression model with proper preprocessing, visualizations, and evaluation metrics.
 
-This project focuses on detecting benign and malignant breast tumors from mammogram images using a convolutional neural network (CNN) enhanced by a custom TrigConv2D layer. The model is designed to identify subtle texture and density patterns commonly observed in breast cancer diagnostics.
+## Features
 
-⚙️ Key Features :
+- 📊 Visualization of class distribution and feature correlation.
+- ⚙️ StandardScaler preprocessing.
+- 🧠 Logistic Regression model with O(log n) inference complexity.
+- ✅ Evaluation metrics: Accuracy, Confusion Matrix, Classification Report.
+- 💾 Model saved using `joblib` for portability.
 
-TrigConv2D Layer : Incorporates sine and cosine transformations into the convolutional layer to enhance the network’s ability to detect micro-textures and irregular structures typical in breast tumors.
+## How to Run
 
-Binary Classification : Distinguishes between benign and malignant tumor classes from grayscale mammogram images.
+1. Install requirements using: `pip install -r requirements.txt`
+2. Open and run `Breast_Cancer_Detection.ipynb` in Jupyter Notebook or Google Colab.
+3. The trained model (`.joblib`) can be reused for predictions.
 
-Clean CNN Architecture : Lightweight, end-to-end pipeline for image preprocessing, model training, and validation.
+## Requirements
 
-Flexible Data Loader : Supports nested folders for real-world datasets with thousands of mammograms in varying formats.
+See `requirements.txt` for necessary packages.
 
-🧪 Tech Stack :
+## Author
 
-Python 3, TensorFlow/Keras
-
-OpenCV for grayscale image processing
-
-Trigonometric feature transformation
-
-Metrics: Accuracy, Binary Cross-Entropy, Confusion Matrix
-
-
-📂 Folder Structure :
-markdown
-
-Copy
-
-Edit
-
-DRIVE/
-
-└── breast/
-
-    ├── benign/  
-    
-    └── malignant/
-    
-📊 Results : 
-
-The model efficiently learns to differentiate tumor types with minimal preprocessing, demonstrating potential for use in early breast cancer screening tools and medical AI research.
+Developed as part of a simulation project by a data scientist at Google.
